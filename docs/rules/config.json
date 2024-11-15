@@ -1,0 +1,18 @@
+[
+  {
+    "text": "布局规范",
+    "link": "/rules/layout"
+  },
+  {
+    "text": "样式声明规范",
+    "link": "/rules/css"
+  },
+  {
+    "text": "组件声明规范",
+    "link": "/rules/comp"
+  },
+  {
+    "text": "Git提交规范",
+    "link": "/rules/git"
+  }
+]

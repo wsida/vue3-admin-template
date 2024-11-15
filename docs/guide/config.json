@@ -1,0 +1,22 @@
+[
+  {
+    "text": "路由说明",
+    "link": "/guide/route"
+  },
+  {
+    "text": "权限说明",
+    "link": "/guide/permit"
+  },
+  {
+    "text": "字典值说明",
+    "link": "/guide/enums"
+  },
+  {
+    "text": "接口调用说明",
+    "link": "/guide/api"
+  },
+  {
+    "text": "登录页说明",
+    "link": "/guide/login"
+  }
+]

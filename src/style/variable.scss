@@ -1,0 +1,16 @@
+/* 自定义全局 CssVar */
+:root {
+  --ap-box-margin: 20px;
+  --ap-container-min-width: 375px;
+
+  /* 左侧菜单展开、收起动画时长 */
+  --pure-transition-duration: 0.3s;
+
+  /* 常用border-color 需要时可取用 */
+  --pure-border-color: var(--el-border-color-lighter);
+
+  /* switch关闭状态下的color 需要时可取用 */
+  --pure-switch-off-color: #a6a6a6;
+}
+
+// scss颜色变量

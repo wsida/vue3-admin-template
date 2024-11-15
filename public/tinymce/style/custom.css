@@ -1,0 +1,4 @@
+.mce-content-body[data-mce-placeholder]:not(.mce-visualblocks)::before {
+  font-size: 14px;
+  color: #a8abb4;
+}

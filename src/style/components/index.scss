@@ -1,0 +1,43 @@
+/* nprogress 适配 element-plus 的主题色 */
+#nprogress {
+  & .bar {
+    background-color: var(--el-color-primary) !important;
+  }
+
+  & .peg {
+    box-shadow:
+      0 0 10px var(--el-color-primary),
+      0 0 5px var(--el-color-primary) !important;
+  }
+
+  & .spinner-icon {
+    border-top-color: var(--el-color-primary);
+    border-left-color: var(--el-color-primary);
+  }
+}
+
+/* 仿 el-scrollbar 滚动条样式，支持大多数浏览器，如Chrome、Edge、Firefox、Safari等。整体暗色风格在 src/style/dark.scss 文件进行了适配 */
+.pure-scrollbar {
+  /* Firefox */
+  scrollbar-width: thin; /* 可选值为 'auto', 'thin', 'none' */
+  scrollbar-color: rgb(221 222 224) transparent; /* 滑块颜色、轨道颜色 */
+  ::-webkit-scrollbar {
+    width: 6px; /* 滚动条宽度 */
+  }
+
+  /* 滚动条轨道 */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* 轨道颜色 */
+  }
+
+  /* 滚动条滑块 */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(221 222 224);
+    border-radius: 4px;
+  }
+
+  /* 滚动条滑块：hover状态 */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(199 201 203); /* 滑块hover颜色 */
+  }
+}

@@ -1,0 +1,87 @@
+@import "element-plus/dist/index.css";
+@import "@/style/element-plus/index.scss";
+
+.ap-demoblock-custom {
+  --demoblock-border: var(--vp-c-divider);
+  color: var(--el-text-color-regular);
+  /* --demoblock-border: #e7e8e9; */
+}
+
+/* html.dark .ap-demoblock-custom {
+  --demoblock-border: var(--vp-c-divider);
+}
+ */
+
+.w-full {
+  width: 100% !important;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.mx-2 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.mx-2 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.vp-doc tr,
+.vp-doc tr {
+  border-top: none;
+}
+
+.vp-doc tr:nth-child(2n) {
+  background: none;
+}
+
+.vp-doc table:not(.el-table__header):not(.el-table__body) tr:nth-child(2n) {
+  background-color: var(--vp-c-bg-soft);
+}
+
+.vp-doc table:not(.el-table__header):not(.el-table__body) tr {
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc table.el-table__header,
+.vp-doc table.el-table__body {
+  margin: 0 !important;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: none;
+}
+
+.vp-doc table:not(.el-table__header) th,
+.vp-doc table:not(.el-table__body) td {
+  border: 1px solid var(--vp-c-divider);
+}
